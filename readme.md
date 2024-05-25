@@ -1,5 +1,4 @@
-# 项目名称
-CASE: Criterion-guided polypharmacy side effects prediction with dual-view contrastive learning
+# CASE: Criterion-guided polypharmacy side effects prediction with dual-view contrastive learning
 
 
 
@@ -14,17 +13,10 @@ CASE: Criterion-guided polypharmacy side effects prediction with dual-view contr
 - python train.py --fold 0 --save_model --batch_size 2048 > traing_log.txt
     batch_size 2048 
     > traing_log.txt 将print打印的保存到.txt文档中
-- [功能](#功能)
-- [贡献](#贡献)
-- [许可证](#许可证)
-- [致谢](#致谢)
+
 
 ## 安装
 
 提供项目的安装步骤。
 
-### 克隆仓库
 
-```sh
-git clone https://github.com/username/repo.git
-cd repo
