@@ -132,9 +132,9 @@ class DrugEncoder(torch.nn.Module):
 
         return x
 
-class SA_DDI(torch.nn.Module):
+class CASE(torch.nn.Module):
     def __init__(self, in_dim, edge_in_dim, hidden_dim=64, n_iter=10, rels_nums = 963, batch_size = 2048):
-        super(SA_DDI, self).__init__()
+        super(CASE, self).__init__()
 
         self.drug_encoder = DrugEncoder(in_dim, edge_in_dim, hidden_dim, n_iter=n_iter)
         self.h_gpool = GlobalAttentionPool(hidden_dim)
